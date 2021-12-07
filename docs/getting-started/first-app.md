@@ -23,7 +23,7 @@ Let’s get started.
 
 ## Create an Entity
 
-Click the Entities icon (left sidebar, a.k.a. main menu) to reach the Entities page, here you see all the entities in your application.
+Click the Entities icon (left sidebar, a.k.a. main menu) to reach the Entities page. Here you see all the entities in your application.
 
 ![](./assets/pic-1.jpg)
 
@@ -52,10 +52,10 @@ To describe your project add some new fields. For the purpose of this tutorial, 
 
 ### Create the Name Field
 
-1. In the _Entity Fields_ text box (above the list of fields), type in “Name”.
-2. Click **Add field** (or just press Enter). The new field is added to the list.
+1. In the _Entity Fields_ text box (below the list of fields), type in “Name.”
+2. Click the **+** (or just press Enter). The new field is added to the list.
 3. The field's property panel opens. Click the **Required Field** toggle to make the _Name_ field required.
-4. Leave the defaults for the other properties (_Searchable_ inactive, _Data Type_ "Single Line Text", and _Max Length_ "1000".)
+4. Leave the defaults for the other properties (_Searchable_ inactive, _Data Type_ "Single Line Text", and _Max Length_ "1000.")
 
 ![](./assets/pic-3.jpg)
 
@@ -65,29 +65,29 @@ All changes are saved automatically.
 
 ### Create the Description Field
 
-1. In the _Entity Fields_ text box type “Description”.
-2. Click **Add field** (or just press Enter). The new field is added to the list.
-3. The field's property panel opens. Leave the defaults (_Required Field_ and _Searchable_ inactive, _Data Type_ "Multi Line Text", and _Max Length_ "1000".)
+1. In the _Entity Fields_ text box type “Description.”
+2. Click the **+** (or just press Enter). The new field is added to the list.
+3. The field's property panel opens. Leave the defaults (_Required Field_ and _Searchable_ inactive, _Data Type_ "Multi Line Text", and _Max Length_ "1000.")
 
 ### Create the Start Date Field
 
-1. In the _Entity Fields_ text box type “Start Date”.
+1. In the _Entity Fields_ text box type “Start Date.”
 
 :::info
 White spaces are supported, which is useful when you want to enter a descriptive field name. The value is saved as the field’s display name.
-In addition to the display name, each field has an auto-generated _Name_ that does not contain spaces or special characters. This name is later used for the API endpoint and in other places in the generated code.
+However, in addition to the display name, each field has an auto-generated _Name_ in the "Name" field that does not contain spaces or special characters. This name is later used for the API endpoint and in other places in the generated code.
 If needed, you can manually change the field name in the field's properties panel.
 :::
 
-2. Click **Add field** (or just press Enter). The new field is added to the list.
-3. The field's property panel opens. Leave the defaults (_Required Field_ and _Searchable_ inactive, _Data Type_ "Date Time", and _Time Zone_ "Local Time".)
+2. Click the **+** (or just press Enter). The new field is added to the list.
+3. The field's property panel opens. Leave the defaults (_Required Field_ and _Searchable_ inactive, _Data Type_ "Date Time", and _Time Zone_ "Local Time.")
 
 ### Create the Owner Field
 
-1. In the _Entity Fields_ text box type “Owner”.
-2. Click **Add field** \(or just press Enter\). The new field is added to the list.
+1. In the _Entity Fields_ text box type “Owner.”
+2. Click the **+** \(or just press Enter\). The new field is added to the list.
 3. The field's property panel opens. Change the _Data Type_ from "Single Line Text" to "Relation to Entity".
-4. In the _Related Entity Id_ field select “User”.
+4. In the _Related Entity_ field select “User.”
 5. Click the **Required Field** toggle to make the “Owner” field required.
 
 :::tip
@@ -118,8 +118,8 @@ Currently, there's only a default “User” role that was auto-generated when y
 
 For the purpose of this tutorial, we'll now add another two roles: “Admin” and "Manager".
 
-1. In the _Type role name_ text box, type "Admin".
-2. Click **Add Role** \(or just press Enter\). The new role is added to the list.
+1. In the _Add Role_ text box, type "Admin."
+2. Click the **+** \(or just press Enter\). The new role is added to the list.
 3. Repeat these steps to add the "Manager" role.
 
 ![](./assets/pic-4.jpg)
@@ -130,7 +130,7 @@ For the purpose of this tutorial, we'll now add another two roles: “Admin” a
 2. Click the _Project_ entity.
 3. In the Project's page click the _Permissions_ tab. This opens the Permissions settings.
 4. Start by making sure that all actions (View, Create, Update, Delete, and Search) are enabled for all roles.
-5. Fine tune permissions by changing the _Delete_ permissions from "All Roles" to "Granular" and then select from the presented roles the "Admin" role.
+5. Fine tune permissions by changing the _Delete_ permissions from "All Roles" to "Granular," and then select from the presented roles the "Admin" role.
    This ensures that only users filling the Admin role can delete projects.
 
 ![](./assets/pic-5.jpg)
@@ -159,9 +159,9 @@ For the purpose of this tutorial, let's make our first commit.
 
 In this page, you can see that the creation of the _Project_ entity hasn't been committed.
 
-1. In the _commit message_ dialog, write a description of the changes you're committing, for example: "Added Project Entity and Manager and Admin roles".
+1. In the _commit message_ dialog, write a description of the changes you're committing, for example: "Added Project Entity and Manager and Admin roles."
 2. Click **Commit Changes**. All changes are committed. A build of the first version of your app is automatically created!
-3. After the build process completes, click the download icon in the _Generate Code_ row to get a .zip file of your app. It is now ready to be deployed anywhere you want. 🚀
+3. After the build process completes, click  _Download Code_ at the bottom of the screen to get a .zip file of your app. It is now ready to be deployed anywhere you want. 🚀
 
 ## Taking your app a bit further
 
